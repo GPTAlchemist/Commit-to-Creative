@@ -28,10 +28,10 @@ Commit to Creative lets developers talk about their projects without turning int
 - 🧬 **Style Enforcement Anchors**: Uses `Andrew's Writing Style.txt` and `The Driftage Paradox.txt` to suppress generic AI phrasing and reflect a grounded, reflective writing tone
 - 🧾 **Clarification-First Intake**: Prompts for missing tone, platform, or post type to avoid misfiring tone or structure
 - 🧱 **Structured Output**:
-  - Optional headline or hook
-  - Main body (based on platform logic)
-  - Platform-aware CTA
-  - **Mandatory footer** for transparency
+  - Optional headline or hook  
+  - Main body (based on platform logic)  
+  - Platform-aware CTA  
+  - **Mandatory footer** for transparency  
 
 ## ⚙️ Technical Highlights
 - 🧠 **Verbatim Input Preservation**: Treats user content as a live tone signal — not just text to rewrite
@@ -40,24 +40,38 @@ Commit to Creative lets developers talk about their projects without turning int
 - ⛔ **Zero Passive Templates**: No vague filler or bland AI summaries
 
 ## 🚀 Results or Differentiators
-- ✍️ Posts feel authored — not assembled
-- 📈 Higher engagement from real-sounding narratives
-- 🧃 Doesn’t hide automation — embraces it with a structured footer
-- 🥇 First to use embedded tone filters over prompt tricks or fine-tunes
+- ✍️ Posts feel authored — not assembled  
+- 📈 Higher engagement from real-sounding narratives  
+- 🧃 Doesn’t hide automation — embraces it with a structured footer  
+- 🥇 First to use embedded tone filters over prompt tricks or fine-tunes  
+
+---
 
 ## 💡 Final Note
 Commit to Creative isn’t here to be clever — it’s here to be clear. It’s a structure tool, not a rewrite engine. It protects your tone, amplifies your message, and gets out of your way.
 
-<!-- Optional Visual Workflow -->
-<div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Commit+to+Creative+Workflow" alt="Commit to Creative flow" width="600"/>
-  <p><em>Visual: Commit to Creative workflow from intake to output</em></p>
-</div>
+Here’s how the system flows — from input to impact:
+
+```
++----------------+     +----------------------+     +----------------------------+
+|  User Content  | --> |  Commit to Creative  | --> |  Platform-Aware Post       |
+|  (README, demo)|     |  (style + structure) |     |  (tone-preserved + CTA)    |
++----------------+     +----------------------+     +----------------------------+
+         |                       |                              |
+         |                       |                              |
+         v                       v                              v
+  Tone Reference Files    Platform Type                Structured Footer
+  (Andrew's Style, etc.)  (pro/dev/casual)             (Transparency tag)
+```
+
+_Visual: Structured post-generation pipeline — clear input, styled core, clean output_
+
+Let me know if you'd like this stylized further or rendered as an actual SVG/PNG later.
 
 ---
 
 ## 🔒 Disclaimer
-This README was generated using the README Synth GPT, a tool designed to convert user-authored documentation, design logic, and development notes into clear, publishable Markdown.
-All ideas, descriptions, and feature logic originated from the creator of this tool.
-README Synth GPT structured, refined, and formatted the content—but it did not invent the product, its claims, or its language.
+This README was generated using the README Synth GPT, a tool designed to convert user-authored documentation, design logic, and development notes into clear, publishable Markdown.  
+All ideas, descriptions, and feature logic originated from the creator of this tool.  
+README Synth GPT structured, refined, and formatted the content—but it did not invent the product, its claims, or its language.  
 For full transparency on how this system works, see the GitHub project: [README Synth GPT](https://github.com/your-org/readme-synth-gpt)
